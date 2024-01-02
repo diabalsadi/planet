@@ -1,0 +1,26 @@
+{
+  "name": "firstporject",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "prettier": {
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "printWidth": 80
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  }
+}
